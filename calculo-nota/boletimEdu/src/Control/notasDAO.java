@@ -24,9 +24,9 @@ public class notasDAO {
             inserir.setString(4,dados.getSituacao());
             inserir.execute();
             inserir.close();
-            JOptionPane.showMessageDialog(null,"CADASTRO DO VEICULO EXITO");
+            JOptionPane.showMessageDialog(null,"CADASTRO DA NOTA COM EXITO");
         } catch(Exception erro){
-            JOptionPane.showMessageDialog(null, "F" + erro);
+            JOptionPane.showMessageDialog(null, "DEU PAU MALANDRO" + erro);
         }
     }
 
