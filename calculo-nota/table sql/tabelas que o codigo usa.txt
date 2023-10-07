@@ -1,0 +1,10 @@
+create database boletim
+use boletim
+
+create table nota(
+	id_materia int not null primary key auto_increment,
+	nome_materia varchar(99)
+	media decimal(2,1),
+	qnt_falta decimal(2,1)
+	situacao varchar(99)
+)engine=innoDB;
